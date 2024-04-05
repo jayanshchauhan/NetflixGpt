@@ -79,12 +79,13 @@ const Login = () => {
 
   const toggleSignInForm = () => {
     setIsSignInForm(!isSignInForm);
+    setErrorMessage(null);
   };
   return (
     <div>
       <Header />
       <div className="absolute">
-        <img className="h-screen object-cover" src={BG_URL} alt="logo" />
+        <img className="h-screen w-screen object-cover" src={BG_URL} alt="logo" />
       </div>
       <form
         onSubmit={(e) => e.preventDefault()}
