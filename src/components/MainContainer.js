@@ -7,7 +7,9 @@ const MainContainer = () => {
 
   if (!movies) return;
 
-  const mainMovie = movies[1];
+  const max = Object.keys(movies).length;
+  const random = Math.floor(Math.random() * (max));
+  const mainMovie = movies[random];
 
   const { original_title, overview, id } = mainMovie;
 
