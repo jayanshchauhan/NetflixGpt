@@ -8,6 +8,4 @@ export const PAGE = {
   WATCH: '/watch',
   SIGNIN: '/login',
   SIGNUP: '/signup',
-  PROFILE: '/profile',
-  ABOUT: '/about',
 }

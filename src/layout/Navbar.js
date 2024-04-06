@@ -1,5 +1,5 @@
 import { Link, useNavigate } from 'react-router-dom';
-import { AVATAR_RED, LOGO_RED, BACKDROP, BASE_URL } from '../utils/constants';
+import { AVATAR_RED, LOGO_RED, BACKDROP, BASE_URL,NETFLIX_LOGO } from '../utils/constants';
 import { PAGE } from '../router/routes';
 import { signOut } from 'firebase/auth';
 import { auth } from '../services/firebase';
@@ -99,7 +99,7 @@ const Navbar = () => {
           <div className='md:mr-14'>
             <div className="w-40 md:w-48">
               <Link to={PAGE.BROWSE}>
-                <img src={LOGO_RED} className='w-full' alt='logo' />
+                <img src={NETFLIX_LOGO} className='w-full' alt='logo' />
               </Link>
             </div>
           </div>
@@ -113,7 +113,7 @@ const Navbar = () => {
             <Link to={PAGE.SEARCH} className='hover:text-gray-400 flex gap-2 items-center'>
               {/* <span className='icon-line text-[24px]'>search</span> */}
               <SearchOutlinedIcon style={{ fontSize: '28px' }} />
-              <span className="hidden lg:block">Search</span>
+              <span className="hidden lg:block">GPTSearch</span>
             </Link>
             <div className="profile-dropdown relative" ref={dropdownRef}>
               <div className="flex items-center gap-3 cursor-pointer" onClick={handlerDropDown}>

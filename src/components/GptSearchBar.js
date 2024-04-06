@@ -75,7 +75,7 @@ const GptSearchBar = ({ searchOpacity }) => {
   return (
     <>
       <div className="px-4 md:px-12 py-3 text-white max-w-4xl text-center m-auto mt-12">
-        <h1 className="text-3xl md:text-5xl mb-3 font-bold">Let's Recommend Something</h1>
+        <h1 className="text-3xl md:text-5xl mb-3 font-bold">Let AI be your Movie Guru!</h1>
         <p className="text-gray-400 text-sm md:text-lg">Discover Family-Friendly Flicks for a Perfect Movie Night</p>
       </div>
       <div className="px-4 md:px-12 py-3 sticky top-[68px] z-[99999]" style={{ background: `rgba(20, 20, 20, ${searchOpacity})` }}>
@@ -117,7 +117,7 @@ const GptSearchBar = ({ searchOpacity }) => {
           </div>
           <p className='text-xs mt-1'>
             Note: Movie recommendations powered by GPT are available on request due to paid APIs.
-            <a href="https://www.linkedin.com/in/okneerajsingh/" target="_blank" rel="noreferrer" className='ml-2 text-sm text-gray-400 hover:text-gray-200'>Request now</a>
+            <a href="https://www.linkedin.com/in/jayansh-chauhan/" target="_blank" rel="noreferrer" className='ml-2 text-sm text-gray-400 hover:text-gray-200'>Request now</a>
           </p>
         </form>
       </div>
