@@ -74,40 +74,6 @@ npm start
   - Search
   - MoviesSuggestion
 
-## Screen Shot
-
-- Landing Page
-
-  ![Landing Page](https://okneeraj.github.io/netflix-gpt/screenshot/01-Landing.png)
-
-- Signin Page
-
-  ![Signin Page](https://okneeraj.github.io/netflix-gpt/screenshot/02-Signin.png)
-
-- Signup Page
-
-  ![Signup Page](https://okneeraj.github.io/netflix-gpt/screenshot/03-Signup.png)
-
-- Browse Page
-
-  ![Browse Page](https://okneeraj.github.io/netflix-gpt/screenshot/04-Browse.png)
-
-- Movie List
-
-  ![Movie List](https://okneeraj.github.io/netflix-gpt/screenshot/05-Movie-List.png)
-
-- Shimmer Loading
-
-  ![Shimmer Loading](https://okneeraj.github.io/netflix-gpt/screenshot/06-Shimmer-loading.png)
-
-- Search Page
-
-  ![Search Page](https://okneeraj.github.io/netflix-gpt/screenshot/07-Search.png)
-
-- Watch Now Page
-
-  ![Watch Now Page](https://okneeraj.github.io/netflix-gpt/screenshot/08-Watch.png)
-
 # 💖 Support This Project
 
 Thank you for taking the time to explore NetflixGPT! This project represents an in-depth implementation of features extracted from the inspiring course "Namaste-React" by Akshay Saini. It's been a rewarding journey, and I'm genuinely grateful for the opportunity to create and share this with the community.
