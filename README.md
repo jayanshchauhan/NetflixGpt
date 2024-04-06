@@ -1,6 +1,6 @@
 # Live Demo
 
-Live Demo : [Live Demo](https://okneeraj.github.io/netflix-gpt "Live Demo")
+Live Demo : [Live Demo](https://netflixgpt-98554.web.app/ "Live Demo")
 
 # Netflix GPT
 
